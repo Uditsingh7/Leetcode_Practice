@@ -22,6 +22,16 @@ const data = [
                         line_name: 'assembly 3',
                         jph: 30,
                     },
+                    {
+                        line_id: 4,
+                        line_name: 'assembly 4',
+                        jph: 20,
+                    },
+                    {
+                        line_id: 5,
+                        line_name: 'assembly 5',
+                        jph: 30,
+                    },
                 ],
             },
         ],
