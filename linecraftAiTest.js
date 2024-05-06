@@ -38,7 +38,6 @@ const data = [
     },
 ]
 
-
 // 1. to get net jph of a line by line id in O(1)
 //  2. to get net jph of a plant by plant id in O(1)
 //  3. to get net jph of a organization by org id in O(1)
@@ -74,12 +73,19 @@ data.forEach(el => {
     orgLineNames[el['org_id']] = lineNames
 })
 
-
+// to get net jph of a line by line id in O(1)
 console.log(lineMap['1'])
+
+// 2. to get net jph of a plant by plant id in O(1)
 console.log(plantMap['3'])
+
+// to get net jph of a organization by org id in O(1)
 console.log(orgMap['2'])
 
+// get plant names of organization by orgid
 console.log(orgPlantNames['1'])
+
+// get line names of organization by orgid
 console.log(orgLineNames['1'])
 
 
