@@ -89,7 +89,11 @@ console.log(orgPlantNames['1'])
 console.log(orgLineNames['1'])
 
 
+// Round 2
 
+// Create a excel like table grid, row*col (2d) structure.
+// It should have the capability of functional operation upon selecting the cells.
+// For now, if random number entered, then new cell for eg =summ should display the sum of the selected cell.
 
 
 
